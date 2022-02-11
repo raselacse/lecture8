@@ -24,5 +24,7 @@
         </tr>
     <?php } ?>
     </table>
+
+    <?php mysqli_close($dbConnection); ?>
 </body>
 </html>
